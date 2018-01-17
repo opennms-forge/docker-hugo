@@ -15,8 +15,6 @@ WORKDIR /opt/repo
 
 VOLUME [ "/opt/repo" ]
 
-ENTRYPOINT [ "hugo" ]
-
-CMD ["--help"]
+CMD ["hugo --help"]
 
 EXPOSE 1313
