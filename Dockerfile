@@ -15,6 +15,6 @@ WORKDIR /opt/repo
 
 VOLUME [ "/opt/repo" ]
 
-CMD ["hugo --help"]
+CMD [ "/usr/local/bin/hugo", "--help" ]
 
 EXPOSE 1313
